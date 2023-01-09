@@ -25,11 +25,46 @@
     align-items: center;
 }
 
-.input-field {
+.upload {
+    cursor: pointer;
+    border: rgb(31, 30, 30) 2px dotted;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 300px;
     height: 225px;
+    object-fit: cover;
+}
+
+.image {
+    width: 140px;
+    /* object-fit: cover; */
+}
+
+.image.active {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .cross-btn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.cross-btn .active {
+    display: inline;
+} */
+
+.forms {
+    display: none;
+}
+
+.forms.active {
+    display: block;
 }
 
 .width-height,
