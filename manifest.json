@@ -1,0 +1,13 @@
+{
+    "name": "Image Compression and Resize",
+    "description": "Image Compression and Resize extension based on js.",
+    "version": "1.1",
+    "manifest_version": 3,
+    "permissions": [],
+    "host_permissions": [],
+    "action": {
+        "default_title": "Image Compression",
+        "default_icon": "upload.png",
+        "default_popup": "index.html"
+    }
+}
