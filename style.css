@@ -32,7 +32,6 @@
     justify-content: center;
     width: 250px;
     height: 180px;
-    border: rgb(31, 30, 30) 2px dotted;
     object-fit: cover;
 }
 
