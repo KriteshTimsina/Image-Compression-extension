@@ -25,7 +25,7 @@ const handleInputClick = () => {
         width.value = showImage.naturalWidth;
         height.value = showImage.naturalHeight;
         originalImageRatio = showImage.naturalWidth / showImage.naturalHeight;
-        clickText.innerText="";
+        clickText.innerText="Click on image to upload another image";
         // showImage.className = ".active"
 
     })
