@@ -2,6 +2,7 @@ const upload = document.getElementsByClassName("upload")[0];
 const inputField = document.querySelector("#input");
 const showImage = document.querySelector(".image");
 const hiddenMenus = document.getElementsByClassName("forms")[0];
+const clickText = document.getElementById("click-me");
 
 const width = document.getElementById("width");
 const height = document.querySelector("#height");
@@ -24,10 +25,8 @@ const handleInputClick = () => {
         width.value = showImage.naturalWidth;
         height.value = showImage.naturalHeight;
         originalImageRatio = showImage.naturalWidth / showImage.naturalHeight;
-
-        // showImage.className = ".active";
-
-
+        clickText.innerText="";
+        // showImage.className = ".active"
 
     })
 }
